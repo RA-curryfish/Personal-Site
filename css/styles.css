@@ -1,0 +1,46 @@
+/*Imports*/
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&family=Montserrat:wght@100&family=Permanent+Marker&display=swap');
+
+/*Elements*/
+body {
+    margin: 0;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+h1 {
+    position: relative;
+    font-family: 'Permanent Marker', cursive;
+}
+
+/*Classes*/
+.top-container {
+    background-color: #EFEFEF;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+.top-container h2 {
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    padding: 20px 0 20px 0;
+    margin: 0;
+}
+.top-container h1 {
+    margin: 0;
+    padding: 10px 0 0 0;
+}
+.top-container img {
+    position: relative;
+    padding: 10px;
+    width: 40%;
+    height: 40%;
+    border-radius: 14px;
+}
+.mid-container {
+    margin: 0;
+    background-color: #34D1BF;
+    text-align: center;
+}
+.mid-container h1 {
+    margin: 0;
+    padding: 10px 0 10px 0;
+}
