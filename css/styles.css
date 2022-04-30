@@ -1,46 +1,106 @@
 /*Imports*/
-@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&family=Montserrat:wght@100&family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&family=Montserrat:wght@100&family=Permanent+Marker&family=Sacramento&display=swap');
 
 /*Elements*/
 body {
     margin: 0;
     font-family: 'Merriweather Sans', sans-serif;
+    background-color: #F4EBD9;
 }
-h1 {
-    position: relative;
-    font-family: 'Permanent Marker', cursive;
+h1,h2,h3,p {
+    color: #EE6352;
+    font-weight: bold;
 }
+a {
+    color: #058ED9;
+    text-decoration: none;
+    font-weight: lighter;
+}
+
 
 /*Classes*/
 .top-container {
-    background-color: #EFEFEF;
-    position: relative;
     text-align: center;
-    width: 100%;
-}
-.top-container h2 {
-    position: relative;
-    font-family: 'Montserrat', sans-serif;
-    padding: 20px 0 20px 0;
-    margin: 0;
-}
-.top-container h1 {
-    margin: 0;
-    padding: 10px 0 0 0;
+    margin: 1%;
 }
 .top-container img {
+    width: 10%;
+    height: 10%;
+    padding-top: 3%;
+}
+.top-container h1 {
+    font-size: 5rem;  
+    font-family: 'Sacramento', cursive;
+    margin: 0;
+}
+.top-container h2, .mid-container {
+    margin: 0;
+    padding: 0.5%;
+}
+.separator {
+    width: 50%;
     position: relative;
+    height: 5px;
+    background-color: #57A773;
+    left: 23%;
+    margin: 2%;
+    display: inline-block;
+    border-radius: 7px;
+}
+.mid-container h2 {
+    font-family: 'Sacramento', cursive;
+    font-size: 3rem;
+    margin: 0;
     padding: 10px;
-    width: 40%;
-    height: 40%;
-    border-radius: 14px;
 }
-.mid-container {
-    margin: 0;
-    background-color: #34D1BF;
-    text-align: center;
+.profile {
+    display: flex;
+    margin: 2%;
 }
-.mid-container h1 {
+.profile img {
+    position: relative;
+    left: 27%;
+    width: 10%;
+    height: 10%;
+}
+.profile .content{
+    position: relative;
+    left: 37%;
+}
+.skills {
+    display: flex;
+    margin: 2%;
+}
+.skills .content {
+    position: relative;
+    left: 25%;
+}
+.skills img {
+    position: relative;
+    left: 8%;
+    top: 10rem;
+    width: 18%;
+    height: 10%;
+}
+.bottom-container {
+    padding: 10px;
+    display: flex;
+}
+.bottom-container h2 {
+    font-family: 'Sacramento', cursive;
+    font-size: 3rem;
     margin: 0;
-    padding: 10px 0 10px 0;
+    padding: 10px;
+}
+.contact-me {
+    position: relative;
+    left: 25%;
+    width: fit-content;
+}
+.links {
+    position: relative;
+    top: 11rem;
+    left: 37%;
+    width: fit-content;
+    height: fit-content;
 }
