@@ -12,9 +12,13 @@ h1,h2,h3,p {
     font-weight: bold;
 }
 a {
-    color: #058ED9;
+    color: rgb(87, 167, 115);
     text-decoration: none;
-    font-weight: lighter;
+    font-weight: bold;
+    margin: 2%;
+}
+a:hover {
+    color: #F4EBD9;
 }
 
 
@@ -66,6 +70,7 @@ a {
 .profile .content{
     position: relative;
     left: 37%;
+    width: 25%;
 }
 .skills {
     display: flex;
@@ -74,17 +79,14 @@ a {
 .skills .content {
     position: relative;
     left: 25%;
+    width: 30%;
 }
 .skills img {
     position: relative;
-    left: 8%;
-    top: 10rem;
-    width: 18%;
+    left: 25%;
+    top: 8rem;
+    width: 14%;
     height: 10%;
-}
-.bottom-container {
-    padding: 10px;
-    display: flex;
 }
 .bottom-container h2 {
     font-family: 'Sacramento', cursive;
@@ -93,14 +95,35 @@ a {
     padding: 10px;
 }
 .contact-me {
-    position: relative;
-    left: 25%;
-    width: fit-content;
+    margin: 1% auto 1% auto;
+    width: 40%;
+    text-align: center;
 }
 .links {
+    text-align: center;
+    /* top: 5rem; */
+    margin-top: 5rem;
     position: relative;
-    top: 11rem;
-    left: 37%;
-    width: fit-content;
-    height: fit-content;
+    padding-top: 2%;
+    padding-bottom: 0.2%;
+    background-color: rgb(87, 167, 115,0.4);
 }
+.links p {
+    color: #57A773;
+    font-size: 14px;
+    padding-top: 1rem;
+}
+.btn {
+    background: #EE6352;
+    border-radius: 21px;
+    font-family: 'Merriweather Sans', sans-serif;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 10px 20px 10px 20px;
+    position: relative;
+    top: 2rem;
+  }
+  
+  .btn:hover {
+    background: #57A773;
+  }
