@@ -72,18 +72,18 @@ a:hover {
     left: 37%;
     width: 25%;
 }
-.skills {
+.proj-intern {
     display: flex;
     margin: 2%;
 }
-.skills .content {
+.proj-intern .content {
     position: relative;
     left: 25%;
     width: 30%;
 }
-.skills img {
+.proj-intern img {
     position: relative;
-    left: 25%;
+    left: 27%;
     top: 8rem;
     width: 14%;
     height: 10%;
