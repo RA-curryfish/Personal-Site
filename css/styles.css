@@ -72,22 +72,48 @@ a:hover {
     left: 37%;
     width: 25%;
 }
-.proj-intern {
+.proj-intern-head {
     display: flex;
-    margin: 2%;
-}
-.proj-intern .content {
     position: relative;
     left: 25%;
-    width: 30%;
+    width: 50%;
 }
-.proj-intern img {
+.proj-intern-head img {
     position: relative;
-    left: 27%;
-    top: 8rem;
-    width: 14%;
-    height: 10%;
+    left: 7%;
+    width: 30%;
+    height: 30%;
 }
+/* .proj-intern-row .heading {
+    display: flex;
+    position: relative;
+    left: 25%;
+    margin-top: 5rem;
+}
+.proj-intern-row .heading img {
+    position: relative;
+    width: 10%;
+    height: 5%;
+    left: 40%;
+} */
+.wrapper {
+    display: flex;
+    margin-top: 2rem;
+}
+/* .wrapper img {
+    position: relative;
+    width: 6rem;
+    height: 10rem;
+    top: 2rem;
+    left: 25%;
+} */
+.proj-intern-row .content {
+    /* display: flex; */
+    position: relative;
+    left: 25%;
+    width: 50%;
+}
+
 .bottom-container h2 {
     font-family: 'Sacramento', cursive;
     font-size: 3rem;
